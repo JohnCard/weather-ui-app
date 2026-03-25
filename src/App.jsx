@@ -2,6 +2,8 @@ import { LoadingButton } from "@mui/lab";
 import { Box, Container, TextField, Typography } from "@mui/material";
 import { useState } from "react";
 
+// ⚠️ Importante
+// En React las variables deben empezar con REACT_APP_
 const API_KEY = process.env.REACT_APP_WEATHER_API_KEY
 // const API_WEATHER_URL = `http://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=`
 const API_WEATHER_URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=`
