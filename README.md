@@ -77,3 +77,11 @@ npm run dev
 | Variable | Description |
 |---|---|
 | `VITE_APP_WEATHER` | Your WeatherAPI.com API key |
+
+---
+
+### Screenshots
+
+| Search interface |
+|:-:|
+| ![Search](img/weather_ui_app.png) |
