@@ -14,6 +14,7 @@ export default function App () {
     error: false,
     message: ''
   })
+
   const [weather, setWeather] = useState({
     city: '',
     country: '',
@@ -98,7 +99,6 @@ export default function App () {
           Search
         </LoadingButton>
       </Box>
-
       {weather.city && (
         <Box
           sx={{
