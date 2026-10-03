@@ -136,19 +136,18 @@ export default function App () {
           </Typography>
         </Box>
       )}
-
-    <Typography
-      textAlign="center"
-      sx={{ mt: 2, fontSize: "10px" }}
-    >
-      Powered by:{" "}
-      <a
-        href="https://www.weatherapi.com/"
-        title="Weather API"
+      <Typography
+        textAlign="center"
+        sx={{ mt: 2, fontSize: "10px" }}
       >
-        WeatherAPI.com
-      </a>
-    </Typography>
+        Powered by:{" "}
+        <a
+          href="https://www.weatherapi.com/"
+          title="Weather API"
+        >
+          WeatherAPI.com
+        </a>
+      </Typography>
     </Container>
   )
 }
